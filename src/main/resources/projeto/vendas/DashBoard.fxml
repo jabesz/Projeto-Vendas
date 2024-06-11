@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projeto.vendas.DashBoardController">
+   <children>
+      <Pane prefHeight="700.0" prefWidth="300.0" style="-fx-background-color: blue;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="650.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="btRegisterCustomer" layoutX="75.0" layoutY="383.0" mnemonicParsing="false" onAction="#registerCustomer" prefHeight="40.0" prefWidth="150.0" text="register Customer" textAlignment="JUSTIFY">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="btRegisterEmployee" layoutX="75.0" layoutY="439.0" mnemonicParsing="false" onAction="#RegisterEmployee" prefHeight="40.0" prefWidth="150.0" text="register Employee" textAlignment="JUSTIFY" />
+            <Label layoutX="58.0" layoutY="99.0" text="System Of Sale" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Pane>
+   </children>
+</AnchorPane>
