@@ -100,7 +100,7 @@
                         </TableView>
                         <Label layoutX="16.0" layoutY="457.0" text="Name" />
                         <TextField fx:id="txtsearch" layoutX="61.0" layoutY="453.0" />
-                        <Button fx:id="btSearchName" layoutX="243.0" layoutY="453.0" mnemonicParsing="false" onAction="#searchNameTable" text="Search" />
+                        <Button fx:id="btSearchNameTable" layoutX="243.0" layoutY="453.0" mnemonicParsing="false" onAction="#searchNameTable" text="Search" />
                         <Button layoutX="384.0" layoutY="453.0" mnemonicParsing="false" text="New" />
                         <Button layoutX="455.0" layoutY="453.0" mnemonicParsing="false" text="Save" />
                         <Button layoutX="524.0" layoutY="453.0" mnemonicParsing="false" text="Edit" />

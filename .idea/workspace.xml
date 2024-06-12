@@ -5,31 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38e98d74-f86b-429a-9285-974112a1d89e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/projeto/vendas/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/projeto/vendas/Dao/CustomersDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/projeto/vendas/Dao/EmployeeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/projeto/vendas/DashBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/projeto/vendas/DashBoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/projeto/vendas/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/projeto/vendas/Jdbc/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/projeto/vendas/Jdbc/TestConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/projeto/vendas/Model/Customers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/projeto/vendas/Model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/projeto/vendas/CustomerView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/projeto/vendas/DashBoard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/projeto/vendas/EmployeeView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/projeto/vendas/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/projeto/vendas/productView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/projeto/vendas/DashBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/projeto/vendas/DashBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/projeto/vendas/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/projeto/vendas/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/projeto/vendas/CustomerView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/projeto/vendas/CustomerView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/projeto/vendas/DashBoard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/projeto/vendas/DashBoard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/projeto/vendas/EmployeeView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/projeto/vendas/EmployeeView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,27 +40,30 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2her1Zq8VCpCPFjjj7yxS2rg5YW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DashBoard.executor": "Run",
-    "Application.HelloApplication.executor": "Run",
-    "Application.TestConnection.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/jabes/IdeaProjects/Vendas",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.JavaFX"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.DashBoard.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestConnection.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/jabes/IdeaProjects/Vendas&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/projeto/vendas" />
@@ -145,12 +131,19 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.RuntimeException" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.reflect.InvocationTargetException" package="java.lang.reflect" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

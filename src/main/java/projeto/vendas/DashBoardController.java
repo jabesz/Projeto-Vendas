@@ -18,6 +18,9 @@ public class DashBoardController implements Initializable {
     private Button btRegisterCustomer;
 
     @FXML
+    private Button btRegisterProduct;
+
+    @FXML
     private Button btRegisterEmployee;
 
     Scene fxmlFile;
@@ -33,7 +36,7 @@ public class DashBoardController implements Initializable {
     @FXML
     void RegisterEmployee(ActionEvent event) {
         try {
-            openModalView("EmployeeView.fxml", "Customer Register");
+            openModalView("EmployeeView.fxml", "Employee Register");
         } catch (Exception ex) {
             System.out.println("" + ex.getMessage());
             ex.printStackTrace();
@@ -44,6 +47,16 @@ public class DashBoardController implements Initializable {
     void registerCustomer(ActionEvent event) {
         try {
             openModalView("CustomerView.fxml", "Customer Register");
+        } catch (Exception ex) {
+            System.out.println("" + ex.getMessage());
+            ex.printStackTrace();
+        }
+    }
+
+    @FXML
+    void RegisterProduct(ActionEvent event) {
+        try {
+            openModalView("productView.fxml", "Product Register");
         } catch (Exception ex) {
             System.out.println("" + ex.getMessage());
             ex.printStackTrace();

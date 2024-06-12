@@ -26,7 +26,19 @@ public class EmployeeController implements Initializable  {
     private Button btAddEmployee;
 
     @FXML
+    private Button btDelete;
+
+    @FXML
+    private Button btEdit;
+
+    @FXML
+    private Button btNew;
+
+    @FXML
     private Button btSearchName;
+
+    @FXML
+    private Button btSearchNameTable;
 
     @FXML
     private ComboBox<String> cbAccessLevel;

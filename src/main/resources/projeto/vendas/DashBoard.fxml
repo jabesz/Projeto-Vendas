@@ -11,17 +11,18 @@
    <children>
       <Pane prefHeight="700.0" prefWidth="300.0" style="-fx-background-color: blue;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="650.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Button fx:id="btRegisterCustomer" layoutX="75.0" layoutY="383.0" mnemonicParsing="false" onAction="#registerCustomer" prefHeight="40.0" prefWidth="150.0" text="register Customer" textAlignment="JUSTIFY">
+            <Button fx:id="btRegisterCustomer" layoutX="75.0" layoutY="162.0" mnemonicParsing="false" onAction="#registerCustomer" prefHeight="40.0" prefWidth="150.0" text="Register Customer" textAlignment="JUSTIFY">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
             </Button>
-            <Button fx:id="btRegisterEmployee" layoutX="75.0" layoutY="439.0" mnemonicParsing="false" onAction="#RegisterEmployee" prefHeight="40.0" prefWidth="150.0" text="register Employee" textAlignment="JUSTIFY" />
-            <Label layoutX="58.0" layoutY="99.0" text="System Of Sale" textFill="WHITE">
+            <Button fx:id="btRegisterEmployee" layoutX="75.0" layoutY="228.0" mnemonicParsing="false" onAction="#RegisterEmployee" prefHeight="40.0" prefWidth="150.0" text="Register Employee" textAlignment="JUSTIFY" />
+            <Label layoutX="69.0" layoutY="63.0" text="Sales System" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
             </Label>
+            <Button fx:id="btRegisterProduct" layoutX="75.0" layoutY="291.0" mnemonicParsing="false" onAction="#RegisterProduct" prefHeight="40.0" prefWidth="150.0" text="Register Product" textAlignment="JUSTIFY" />
          </children>
          <opaqueInsets>
             <Insets />
